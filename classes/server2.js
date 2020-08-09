@@ -208,7 +208,6 @@ const addRole = () => {
           if (err) throw err;
           let temp = new Role(row.insertId, title, salary, id);
           roles.push(temp);
-          console.log(roles);
           console.log("Role added");
           start();
         });
@@ -264,7 +263,6 @@ const addEmployee = () => {
                 temp.setManagerId(manager_id);
               }
               employee.push(temp);
-              console.log(employee);
               console.log("Employee added");
               start();
             });
@@ -308,7 +306,6 @@ const updateEmpRole = () => {
             if (err) throw err;
             employees[indexEmp].setRoleId(role_id);
             console.log("Role updated");
-            console.log(employees[indexEmp]);
             start();
           });
         });
@@ -368,7 +365,6 @@ const updateEmpManager = () => {
             if (err) throw err;
             employees[indexEmp].setRoleId(emp_id);
             console.log("Employee manager updated");
-            console.log(employees[indexEmp]);
             start();
           });
         });

@@ -6,7 +6,7 @@ Design the following database schema containing three tables:
 
 ![Database Schema](Assets/schema.png)
 ![Employee Tracker](Assets/employee-tracker.gif)
-[Youtube video]()
+[Youtube video](https://youtu.be/oWsuAmCK79s)
 
 * **department**:
 
