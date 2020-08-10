@@ -53,8 +53,8 @@ let employeeQuestions = [
 var con = mysql.createConnection({
   host: "localhost",
   port: 3306,
-  user: "root",
-  password: "Ukrayina91",
+  user: "YOUR USER ID",
+  password: "YOUR PASSWORD",
   database: "employee_tracker_db",
   multipleStatements: true,
 });
